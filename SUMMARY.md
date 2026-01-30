@@ -9,6 +9,8 @@
 * [System Architecture](architecture.md)
 * [Tokenomics & Financials](tokenomics.md)
 * [Candao Foundation](foundation.md)
+* [How Partners Earn](how-partners-earn.md)
 * [Roadmap](roadmap.md)
 * [Risks & Disclaimers](risks.md)
 * [Glossary](glossary.md)
+
