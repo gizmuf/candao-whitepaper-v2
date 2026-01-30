@@ -81,6 +81,34 @@ Instead of earning through fees, partners earn through **reward pools**:
 
 ---
 
+## The Partner Reward Formula
+
+Your earnings are directly proportional to your contribution to the network:
+
+**Monthly CDO Rewards = f(Active Users × Engagement × Network Growth)**
+
+| Metric | Why It Matters |
+|--------|----------------|
+| **Active Users** | More users in your app = larger share of reward pool |
+| **Engagement** | Better app = higher retention = sustained rewards |
+| **Network Growth** | Users you bring who join other apps = bonus multiplier |
+
+> **The better your app, the more users you keep, the more you earn.**
+>
+> This is not charity. This is **performance-based protocol economics**.
+
+### Example Reward Distribution
+
+| Partner | Monthly Active Users | Reward Pool Share |
+|---------|---------------------|-------------------|
+| Small app | 500 | 0.5% |
+| Medium app | 5,000 | 5% |
+| Large app | 50,000 | 25% |
+
+**Key insight:** The protocol rewards builders who create value — not middlemen who extract it. Your profitability comes from building a great product that users love, not from taking a cut of their transactions.
+
+---
+
 ## The Infinite Package for Users
 
 Users enter through:
