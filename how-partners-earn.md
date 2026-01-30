@@ -83,43 +83,40 @@ Instead of earning through fees, partners earn through **reward pools**:
 
 ## The Partner Reward Formula
 
-Your earnings are directly proportional to your contribution to the network:
-
 > **More active users + better retention = larger share of the protocol rewards.**
 
 ### Reward Distribution (Per Epoch)
 
-Rewards are distributed monthly based on each partner's contribution score:
+Reward pool distribution per epoch (month/quarter):
 
-```
-Rewardᵢ(t) = Pool(t) × Scoreᵢ(t) / Σⱼ Scoreⱼ(t)
-```
+$$
+\text{Reward}_i(t) = \text{Pool}(t) \times \frac{\text{Score}_i(t)}{\sum_j \text{Score}_j(t)}
+$$
 
 Where:
 - **Pool(t)** = Total CDO allocated for partner rewards in epoch t (governance-defined)
-- **Scoreᵢ(t)** = Partner i's contribution score
-- **Σⱼ Scoreⱼ(t)** = Sum of all partner scores (normalization)
+- **Score_i(t)** = Partner i's contribution score
+- **Σⱼ Score_j(t)** = Sum of all partner scores (normalization)
 
 ### Partner Score Calculation
 
-```
-Scoreᵢ = wᵤ · f(MAUᵢ) + wᵣ · Retention₃₀ + wₓ · CrossAppActivation − wₛ · SybilRisk
-```
+$$
+\text{Score}_i = w_u \cdot f(\text{MAU}_i) + w_r \cdot \text{Retention}_{30} + w_x \cdot \text{CrossAppActivation} - w_s \cdot \text{SybilRisk}
+$$
 
-| Component | Weight | Description |
-|-----------|--------|-------------|
-| **f(MAU)** | wᵤ | Monthly Active Users (verified, anti-bot) |
-| **Retention₃₀** | wᵣ | % of users still active after 30 days |
-| **CrossAppActivation** | wₓ | Users who adopt other Zero Fee apps |
-| **SybilRisk** | wₛ | Anti-fraud penalty (prevents fake users) |
+Where:
+- **MAU** = Monthly Active Users (verified / anti-bot)
+- **Retention₃₀** = % of users still active after 30 days
+- **CrossAppActivation** = users who adopt other Zero Fee apps (network contribution)
+- **SybilRisk** = anti-fraud penalty (prevents "fake users" gaming)
 
 ### Fairness Function
 
 To prevent monopolistic concentration, MAU uses a **concave function**:
 
-```
-f(MAU) = log(1 + MAU)
-```
+$$
+f(\text{MAU}) = \log(1 + \text{MAU})
+$$
 
 This ensures large apps still win, but not infinitely — giving smaller quality apps a fair chance.
 
