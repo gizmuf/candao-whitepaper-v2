@@ -85,27 +85,93 @@ Instead of earning through fees, partners earn through **reward pools**:
 
 Your earnings are directly proportional to your contribution to the network:
 
-**Monthly CDO Rewards = f(Active Users × Engagement × Network Growth)**
+> **More active users + better retention = larger share of the protocol rewards.**
 
-| Metric | Why It Matters |
-|--------|----------------|
-| **Active Users** | More users in your app = larger share of reward pool |
-| **Engagement** | Better app = higher retention = sustained rewards |
-| **Network Growth** | Users you bring who join other apps = bonus multiplier |
+### Reward Distribution (Per Epoch)
 
-> **The better your app, the more users you keep, the more you earn.**
+Rewards are distributed monthly based on each partner's contribution score:
+
+```
+Rewardᵢ(t) = Pool(t) × Scoreᵢ(t) / Σⱼ Scoreⱼ(t)
+```
+
+Where:
+- **Pool(t)** = Total CDO allocated for partner rewards in epoch t (governance-defined)
+- **Scoreᵢ(t)** = Partner i's contribution score
+- **Σⱼ Scoreⱼ(t)** = Sum of all partner scores (normalization)
+
+### Partner Score Calculation
+
+```
+Scoreᵢ = wᵤ · f(MAUᵢ) + wᵣ · Retention₃₀ + wₓ · CrossAppActivation − wₛ · SybilRisk
+```
+
+| Component | Weight | Description |
+|-----------|--------|-------------|
+| **f(MAU)** | wᵤ | Monthly Active Users (verified, anti-bot) |
+| **Retention₃₀** | wᵣ | % of users still active after 30 days |
+| **CrossAppActivation** | wₓ | Users who adopt other Zero Fee apps |
+| **SybilRisk** | wₛ | Anti-fraud penalty (prevents fake users) |
+
+### Fairness Function
+
+To prevent monopolistic concentration, MAU uses a **concave function**:
+
+```
+f(MAU) = log(1 + MAU)
+```
+
+This ensures large apps still win, but not infinitely — giving smaller quality apps a fair chance.
+
+### Example Reward Distribution (Illustrative)
+
+| Partner | MAU | Retention | Score | Pool Share |
+|---------|-----|-----------|-------|------------|
+| Small app | 500 | 85% | 6.2 | ~2% |
+| Medium app | 5,000 | 70% | 8.5 | ~10% |
+| Large app | 50,000 | 60% | 10.8 | ~25% |
+
+> **Partners don't profit by taxing users. Partners profit by growing the network.**
+
+---
+
+## Anti-Gaming Protections
+
+The protocol includes safeguards against manipulation:
+
+| Protection | Implementation |
+|------------|----------------|
+| **Sybil Detection** | On-chain identity verification, device fingerprinting |
+| **Bot Prevention** | Behavioral analysis, CAPTCHA for suspicious patterns |
+| **Fake User Penalty** | SybilRisk score reduces partner rewards |
+| **Audit Trail** | All user activity logged and verifiable |
+
+Partners caught gaming the system face:
+- Immediate reward suspension
+- Reputation score damage
+- Potential removal from program
+
+---
+
+## Partner Commitments
+
+| You Commit | You Receive |
+|------------|-------------|
+| Hold $1,000 CDO (alignment bond) | App built by 360° community |
+| Operate Zero Fee (no platform cuts) | Share of protocol reward pool |
+| Onboard users to Infinite Package | Token appreciation from demand |
+| Invite 2+ business partners | Network expansion bonus |
+
+---
+
+## Important Disclaimers
+
+> ⚠️ **This is not investment advice.**
 >
-> This is not charity. This is **performance-based protocol economics**.
-
-### Example Reward Distribution
-
-| Partner | Monthly Active Users | Reward Pool Share |
-|---------|---------------------|-------------------|
-| Small app | 500 | 0.5% |
-| Medium app | 5,000 | 5% |
-| Large app | 50,000 | 25% |
-
-**Key insight:** The protocol rewards builders who create value — not middlemen who extract it. Your profitability comes from building a great product that users love, not from taking a cut of their transactions.
+> - Reward pool size is governance-defined and may change
+> - Token prices fluctuate; past performance ≠ future results
+> - Examples are **illustrative only**, not guaranteed outcomes
+> - Partners earn through **protocol participation**, not token appreciation promises
 
 ---
 
