@@ -17,13 +17,13 @@ Candao flips this:
 
 ---
 
-## Partner Entry: The $1,000 CDO Commitment
+## Partner Entry: The $1,000+ CDO Commitment
 
 A business owner enters by holding:
 
 | Requirement | Details |
 |-------------|---------|
-| **CDO Commitment** | $1,000 worth (~10,000 CDO at $0.10) |
+| **CDO Commitment** | $1,000+ worth (varies by partner/business scope) |
 | **Purpose** | Alignment bond, not a fee |
 | **Commitment** | Zero Fee operation model |
 | **Mission** | Onboard users into the ecosystem |
@@ -154,7 +154,7 @@ Partners caught gaming the system face:
 
 | You Commit | You Receive |
 |------------|-------------|
-| Hold $1,000 CDO (alignment bond) | App built by 360° community |
+| Hold $1,000+ CDO (alignment bond) | App built by 360° community |
 | Operate Zero Fee (no platform cuts) | Share of protocol reward pool |
 | Onboard users to Infinite Package | Utility-driven demand exposure |
 | Introduce partner candidates (optional) | Ecosystem expansion bonuses (governance-defined) |
@@ -203,7 +203,7 @@ One identity, many services, shared network value.
 │                   PARTNER FLYWHEEL                       │
 ├─────────────────────────────────────────────────────────┤
 │                                                          │
-│    Partner commits $1,000 CDO                            │
+│    Partner commits $1,000+ CDO                            │
 │              ↓                                           │
 │    Gets app built by 360° Community                      │
 │              ↓                                           │
@@ -245,7 +245,7 @@ This is not charity. This is an **engineered economic system** where:
 | Isolated app silos | Multi-app network effects |
 
 **You convert your app to Zero Fee.**  
-**You commit $1,000 CDO as your alignment key.**  
+**You commit $1,000+ CDO as your alignment key.**  
 **As your user base grows, you receive CDO rewards — replacing fee-based profits.**  
 **Users benefit from lower prices AND access to an expanding ecosystem.**
 
