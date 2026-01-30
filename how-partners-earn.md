@@ -9,7 +9,7 @@ Candao flips this:
 **The app owner commits to Zero Fee** and instead earns through:
 
 1. **CDO-aligned rewards** — A CDO pool linked to app growth
-2. **Token appreciation** — Demand created by onboarding users drives utility value
+2. **Utility-driven demand exposure** — CDO is required for access, so adoption growth may increase demand (no guarantees)
 3. **Direct revenue** — Selling products/services directly (not taxing the marketplace)
 4. **Reduced costs** — Community-powered building reduces development expenses
 
@@ -138,10 +138,10 @@ The protocol includes safeguards against manipulation:
 
 | Protection | Implementation |
 |------------|----------------|
-| **Sybil Detection** | On-chain identity verification, device fingerprinting |
-| **Bot Prevention** | Behavioral analysis, CAPTCHA for suspicious patterns |
+| **Sybil Detection** | On-chain identity/reputation, rate limiting |
+| **Bot Prevention** | Behavioral analysis, anomaly detection |
 | **Fake User Penalty** | SybilRisk score reduces partner rewards |
-| **Audit Trail** | All user activity logged and verifiable |
+| **Optional Attestations** | Jurisdiction-dependent identity verification |
 
 Partners caught gaming the system face:
 - Immediate reward suspension
@@ -156,8 +156,8 @@ Partners caught gaming the system face:
 |------------|-------------|
 | Hold $1,000 CDO (alignment bond) | App built by 360° community |
 | Operate Zero Fee (no platform cuts) | Share of protocol reward pool |
-| Onboard users to Infinite Package | Token appreciation from demand |
-| Invite 2+ business partners | Network expansion bonus |
+| Onboard users to Infinite Package | Utility-driven demand exposure |
+| Introduce partner candidates (optional) | Ecosystem expansion bonuses (governance-defined) |
 
 ---
 
@@ -178,7 +178,9 @@ Users enter through:
 
 | Package | Cost | Access |
 |---------|------|--------|
-| **Infinite** | $100 CDO | Unlimited usage across all Zero Fee apps |
+| **Infinite** | $100 CDO | Unlimited zero-fee access to participating Candao apps* |
+
+> *Excludes external hard costs: AI compute, payment rails, shipping, third-party services.
 
 Users aren't buying access to *one app*.
 
