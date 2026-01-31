@@ -118,3 +118,22 @@
 | Patreon | Creators (8-12%) | Direct support, 0% platform cut |
 
 **The fees disappear. The value stays with the people who create it.**
+
+---
+
+## FAQ
+
+**Q: If there are no fees, how does Candao make money?**
+A: Partners share 30% of their direct revenue with Candao Foundation. The Foundation uses this to fund development, grow the ecosystem, and buy back tokens.
+
+**Q: What if the token price drops?**
+A: Your access never changes. You hold tokens for access, not speculation. Even if market price fluctuates, your $100 in CDO still unlocks Infinite Package.
+
+**Q: How is this different from a coupon or discount app?**
+A: Coupons are temporary discounts within fee-based platforms. Zero Fee is structural — the platform architecture itself eliminates extraction. It's a different economic model, not a marketing trick.
+
+**Q: What stops partners from secretly adding fees?**
+A: Smart contract enforcement. Partners commit to Zero Fee at the protocol level. Breaking the commitment = removal from the ecosystem.
+
+**Q: Is this just cheaper because you're new?**
+A: No. Fee removal isn't a launch tactic — it's the core design. Candao is built so fees are architecturally unnecessary. As the network grows, Zero Fee becomes more powerful, not less.

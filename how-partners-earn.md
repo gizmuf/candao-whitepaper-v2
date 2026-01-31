@@ -256,6 +256,25 @@ They're buying access to an **expanding universe of Zero Fee apps**.
 
 ---
 
+## FAQ
+
+**Q: Why would I commit $1,000+ if I don't get guaranteed returns?**
+A: The $1,000 is held, not spent. You keep it. It's an alignment bond that signals you're serious — and it unlocks the 360° community, app factory pipeline, and protocol rewards.
+
+**Q: What if users don't show up?**
+A: That's the partner's job: growth. The good news? You're not competing against platforms with massive ad budgets. Your users pay less (Zero Fee) and stay longer (better retention). The economics work in your favor.
+
+**Q: Is this like an MLM / referral scheme?**
+A: No. Partner introductions are optional and ecosystem-aligned — there are no tiered commissions or downline structures. Rewards are based on user growth, not recruitment pyramids.
+
+**Q: What happens if Candao fails?**
+A: Your tokens are yours. If the ecosystem doesn't grow, your tokens may lose value — but you're not locked into a platform. Unlike subscription fees, you never "lose" what you paid. You hold an asset.
+
+**Q: How do I know the reward formula won't change against me?**
+A: Changes are governance-controlled and announced with timelocks. Partners can vote on proposals. No surprises.
+
+---
+
 ## Summary
 
 **Convert your app to Zero Fee.**  
