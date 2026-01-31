@@ -1,5 +1,15 @@
 # Why Now?
 
+## The Moment Before the Shift
+
+Imagine reading this in 2030:
+
+> *"Remember when we used to pay Airbnb 20%? When Upwork took a cut of every invoice? When we didn't own our data, and AI agents were just lab demos?"*
+
+**That world is ending.** The tools to replace it exist today. Candao is the execution layer that makes the Zero Fee Economy real.
+
+---
+
 ## The AI Tipping Point (2026)
 
 The convergence of three forces makes this moment unique:

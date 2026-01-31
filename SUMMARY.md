@@ -4,6 +4,7 @@
 * [Who Is This For?](who-is-this-for.md)
 * [Why Now?](why-now.md)
 * [The Zero Fee Economy](zero-fee-economy.md)
+* [Use Cases](use-cases.md)
 * [AI Ghosts](ai-ghosts.md)
 * [Matchify Integration](matchify.md)
 * [System Architecture](architecture.md)

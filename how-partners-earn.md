@@ -30,6 +30,20 @@ A business owner enters by holding:
 
 This is not a cost. It's a **commitment bond** that aligns the owner with the protocol.
 
+### Token Lock Schedule
+
+Partner tokens are locked with gradual unlock:
+
+| Year | Unlock | Cumulative |
+|------|--------|------------|
+| 1 | 0% | 0% liquid |
+| 2 | 10% | 10% liquid |
+| 3 | 10% | 20% liquid |
+| 4 | 40% | 60% liquid |
+| 5 | 40% | 100% liquid |
+
+> **Zero-fee access and partner benefits continue throughout the lock period.** The lock removes tokens from circulation, creating healthier tokenomics for everyone.
+
 ---
 
 ## What Partners Receive
@@ -181,6 +195,20 @@ Users enter through:
 | **Infinite** | $100 CDO | Unlimited zero-fee access to participating Candao apps* |
 
 > *Excludes external hard costs: AI compute, payment rails, shipping, third-party services.
+
+### Token Lock Schedule
+
+User tokens are locked with gradual unlock (same as partners):
+
+| Year | Unlock | Cumulative |
+|------|--------|------------|
+| 1 | 0% | 0% liquid |
+| 2 | 10% | 10% liquid |
+| 3 | 10% | 20% liquid |
+| 4 | 40% | 60% liquid |
+| 5 | 40% | 100% liquid |
+
+> **Your access never stops.** The lock simply removes tokens from circulation, creating healthier tokenomics. You keep your tokens — they just become liquid gradually.
 
 Users aren't buying access to *one app*.
 

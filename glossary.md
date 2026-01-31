@@ -15,6 +15,9 @@
 | **Matchify** | AI-powered social commerce network on Candao infrastructure |
 | **$CDO** | Native utility token powering the Candao ecosystem |
 | **TGE** | Token Generation Event — public launch of $CDO tokens |
+| **Token Lock** | 5-year gradual unlock schedule for user/partner tokens (0%/10%/10%/40%/40%) |
+| **Infinite Package** | $100 CDO commitment granting unlimited zero-fee access to all Candao apps |
 | **L2** | Layer 2 — blockchain scaling solution built on top of Ethereum |
+| **L3** | Layer 3 — application-specific chain built on top of an L2 |
 | **PoRep** | Proof of Replication — cryptographic proof of unique data storage |
 | **PoSt** | Proof of Spacetime — verification that data remains stored over time |

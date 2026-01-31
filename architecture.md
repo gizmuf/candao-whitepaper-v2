@@ -39,6 +39,8 @@
 | Gas Cost | <$0.0001 |
 | Finality | <1 second |
 
+> **Note:** These are *design targets* subject to rollup parameters, data availability layer choice, and third-party audits. Final specifications may vary based on production optimization.
+
 **Key on-chain components:**
 - Asset ownership records
 - Ghost registry (soul-bound)

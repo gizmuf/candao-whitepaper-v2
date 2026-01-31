@@ -20,8 +20,28 @@ Token holding (not spending) unlocks ecosystem access:
 |------|------------|--------|
 | Free | $0 | Basic Ghost |
 | Standard | $100 | Full Ghost |
-| Premium | $1,000 | Partner program |
+| Premium | $1,000+ | Partner program |
 | Elite | $10,000 | Enterprise features |
+
+### Token Lock (Users & Partners)
+
+Tokens held for ecosystem access are **locked** with gradual unlock:
+
+| Year | Unlock | Cumulative Liquid | Status |
+|------|--------|-------------------|--------|
+| 1 | 0% | 0% | Fully locked |
+| 2 | 10% | 10% | 90% locked |
+| 3 | 10% | 20% | 80% locked |
+| 4 | 40% | 60% | 40% locked |
+| 5 | 40% | 100% | Fully liquid |
+
+**Why Token Lock?**
+- **Removes CDO from circulation** → healthier tokenomics
+- **Zero-fee access continues** throughout lock period
+- **Users become stakeholders** → long-term ecosystem alignment
+- **Predictable supply** → sustainable growth dynamics
+
+> **Important:** Token Lock is a *commitment*, not a penalty. You keep your tokens — they just unlock gradually. Access to all Zero Fee services continues from Day 1.
 
 ### 2. Ecosystem Fuel
 Small fees for:
