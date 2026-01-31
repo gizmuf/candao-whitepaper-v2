@@ -39,7 +39,7 @@
 | Storage (P2P cloud) | Users | Token holding tier or micro-payments |
 | Blockchain gas | Users | Near-zero (<$0.001) via L2 |
 | Development | Candao Foundation | Funded by 30% partner revenue share |
-| Protocol operations | Ecosystem | Buyback & Make redistribution |
+| Protocol operations | Ecosystem | Funded by ecosystem rewards pool |
 
 **The key difference:** These are *operational costs*, not *extractive fees*. Users pay for resources consumed, not for the privilege of access.
 
