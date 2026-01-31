@@ -26,19 +26,19 @@ Your Ghost handles all intents through natural conversation:
 
 ---
 
-## ChatGPT vs Matchify Ghost
+## Subscription AI vs Matchify Ghost
 
-| Aspect | ChatGPT | Matchify Ghost |
-|--------|---------|----------------|
+| Aspect | Subscription AI Assistants | Matchify Ghost |
+|--------|---------------------------|----------------|
 | **What it does** | Answers questions, generates content | Acts on your behalf — matches, negotiates, transacts |
 | **Memory** | Session-limited or subscription-based | Persistent identity + relationship history |
 | **Agency** | Requires you to do the work | Works autonomously 24/7 |
 | **Network** | You're alone with an AI | Ghost-to-Ghost network — millions of potential matches |
-| **Economics** | $20/month subscription | One-time $100 CDO hold (kept, not spent) |
+| **Economics** | Monthly subscription fees | One-time $100 CDO hold (kept, not spent) |
 | **Transactions** | Can't close deals | Negotiates and settles payments |
 | **Personalization** | Generic model | Learns your preferences, relationships, reputation |
 
-> **ChatGPT gives you answers. Your Ghost gets you results.**
+> **Subscription AI gives you answers. Your Ghost gets you results.**
 
 ---
 

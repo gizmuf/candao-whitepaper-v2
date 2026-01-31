@@ -67,6 +67,70 @@ Partner tokens are locked with gradual unlock:
 
 > **Zero-fee access and partner benefits continue throughout the lock period.** The lock removes tokens from circulation, creating healthier tokenomics for everyone.
 
+### Dynamic Unlock Mechanism (Future Governance Feature)
+
+> ⚠️ **Governance-Defined** — This mechanism is under development and subject to community vote.
+
+**The Concept:** Instead of fixed yearly unlocks only, unlock speed could adjust based on ecosystem health. When the ecosystem thrives, participants unlock faster. When markets are stressed, unlocks slow down to protect everyone.
+
+| Ecosystem Health | Effect on Unlock |
+|------------------|------------------|
+| **Strong** (price above average, high volume) | Accelerated unlock (up to 1.5x) |
+| **Normal** (stable metrics) | Standard schedule |
+| **Stressed** (low liquidity, declining metrics) | Minimum unlock (floor rate) |
+
+**Why This Works:**
+- Rewards holders when ecosystem is thriving
+- Protects against dumps during downturns
+- Aligns seller behavior with ecosystem health
+
+---
+
+<details>
+<summary><strong>📐 Technical Details: How Dynamic Unlock Works</strong></summary>
+
+**Proposed Formula:**
+
+$$
+\text{UnlockRate}_t = \text{BaseRate} \times \text{HealthMultiplier}(t)
+$$
+
+Where:
+
+$$
+\text{HealthMultiplier} = \min\left(1.5, \frac{\text{CurrentPrice}}{\text{MA}_{90}} \times \frac{\text{Volume}_{30}}{\text{VolumeThreshold}}\right)
+$$
+
+**Metrics Used:**
+
+| Metric | Healthy Range | Source |
+|--------|---------------|--------|
+| **Token Price** | Above 90-day moving average | DEX/CEX oracles |
+| **Trading Volume** | Above governance-set threshold | On-chain data |
+| **Market Depth** | Sufficient buy-side liquidity | Order book analysis |
+| **TVL** | Growing or stable | Protocol analytics |
+
+**Safeguards:**
+
+| Guard | Description |
+|-------|-------------|
+| **Floor** | Unlock never drops below scheduled minimum |
+| **Ceiling** | Max 1.5x acceleration (prevents sudden dumps in bull markets) |
+| **Delay** | Any acceleration requires 30-day governance notice |
+| **Audit** | Quarterly third-party verification of metrics |
+
+**Example Scenario:**
+
+| Condition | Base Rate | Multiplier | Effective Rate |
+|-----------|-----------|------------|----------------|
+| Bull market (price 1.2x MA, high volume) | 10%/year | 1.4x | 14%/year |
+| Normal market | 10%/year | 1.0x | 10%/year |
+| Bear market (price 0.7x MA) | 10%/year | 1.0x (floor) | 10%/year |
+
+> **Note:** All parameters are governance-defined and may evolve based on ecosystem needs.
+
+</details>
+
 ---
 
 ## What Partners Receive

@@ -6,6 +6,20 @@
 
 ---
 
+## The Manifesto
+
+> The internet became toll roads.  
+> Platforms tax every transaction.  
+> Communities build the value — but don't own it.  
+> 
+> **Candao removes rent extraction.**  
+> 
+> Hold $CDO to unlock Zero Fee access.  
+> AI Ghosts do the work: match, negotiate, transact.  
+> Builders and partners earn by growing real communities — not by charging fees.
+
+---
+
 ## What Candao Is
 
 - **AI-first** — Autonomous agents (Ghosts), not chatbots
